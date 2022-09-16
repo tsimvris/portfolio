@@ -9,8 +9,7 @@ import {Router} from "@angular/router";
 export class WorkComponent implements OnInit {
 
   constructor(private router: Router) {}
-  notEditedTitle = this.router.url;
-  title = this.notEditedTitle.slice(1).toUpperCase();
+
 
   ngOnInit(): void {
   }

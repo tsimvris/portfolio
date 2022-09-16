@@ -5,7 +5,7 @@ import { WorkComponent } from './work/work.component';
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'work', component: WorkComponent },
-  { path: '', redirectTo: '/', pathMatch: 'full' },
+  { path: 'main', redirectTo: '/', pathMatch: 'full' },
 ];
 
 @NgModule({
