@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +7,6 @@ import { Router, ActivatedRoute } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  constructor(private router: Router, private activatedRoute: ActivatedRoute) {}
-  title = this.router.url;
-  id = this.activatedRoute.snapshot.paramMap;
+  constructor(private router: Router) {}
+  title = 'Home';
 }

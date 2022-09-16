@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
 import { HeroComponent } from './hero/hero.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,7 @@ import { HeroComponent } from './hero/hero.component';
     WorkComponent,
     HeroComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, RouterModule],
+  imports: [BrowserModule, AppRoutingModule, RouterModule, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
